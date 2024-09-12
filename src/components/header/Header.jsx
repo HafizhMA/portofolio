@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className="navbar tes">
+        <div className="navbar navbar-style">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,7 +21,7 @@ const Header = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black">
                         <li><a>Item 1</a></li>
                         <li><a>Item 3</a></li>
                     </ul>
