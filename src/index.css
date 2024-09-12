@@ -9,6 +9,13 @@
 @layer components{
   /* Navbar */
   .navbar-style{
-    @apply bg-slate-600 text-white border-2 border-black
+    @apply bg-slate-600 text-neutral-content border-2 border-black
+  }
+}
+
+@layer components{
+  /* skill section */
+  .skill-card{
+    @apply flex flex-col items-center justify-center border-2 border-black p-3 rounded font-semibold space-y-2 cursor-pointer
   }
 }
