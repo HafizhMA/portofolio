@@ -3,7 +3,7 @@ import React from 'react'
 const ProjectsSection = () => {
     return (
         <div className='min-h-screen'>
-            <p>tetsing project section</p>
+            <p className='font-bold text-2xl'>Projects</p>
         </div>
     )
 }
