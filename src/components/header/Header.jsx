@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -22,8 +23,8 @@ const Header = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black">
-                        <li><a>About</a></li>
-                        <li><a>Skills</a></li>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/skills'>Skills</Link></li>
                         <li><a>Projects</a></li>
                     </ul>
                 </div>
@@ -31,8 +32,8 @@ const Header = () => {
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>About</a></li>
-                    <li><a>Skills</a></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/skills'>Skills</Link></li>
                     <li><a>Projects</a></li>
                 </ul>
             </div>

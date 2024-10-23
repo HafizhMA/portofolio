@@ -3,7 +3,7 @@ import React from 'react'
 const SkillsSection = () => {
     return (
         <div className='h-screen'>
-            <p className='text-center font-bold mb-3 text-xl'>My Skills</p>
+            <p className='text-center font-bold mb-3 text-xl'>Tech Stack</p>
             <div className='grid grid-cols-5 border-2 border-black p-8 rounded gap-5'>
                 <div className='skill-card'>
                     <img src="https://img.icons8.com/color/480/html-5--v1.png" className='skill-cart-img' alt="html-5--v1" />
