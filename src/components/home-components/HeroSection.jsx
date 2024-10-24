@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 const HeroSection = () => {
     return (
         <div className='min-h-[90vh] hero container'>
-            <div className='grid grid-cols-2'>
+            <div className='grid grid-cols-1 md:grid-cols-2 space-y-5'>
                 <div className='flex flex-col justify-center text-4xl'>
                     <TypeAnimation
                         className='text-5xl whitespace-pre-line'
