@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
     return (
-        <div className='min-h-screen hero container w-full'>
+        <div className='min-h-screen hero w-full'>
             <div className='grid grid-cols-1 w-full md:grid-cols-2 space-y-5 justify-between'>
                 <div className='flex flex-col justify-center text-center md:text-left'>
                     <TypeAnimation
