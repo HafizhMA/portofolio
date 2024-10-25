@@ -3,7 +3,7 @@ import SkillsSection from '../home-components/SkillsSection'
 
 const SkillsPage = () => {
     return (
-        <div className='px-6 py-5 bg-slate-50'>
+        <div className='mx-6 py-5 bg-slate-50'>
             <SkillsSection />
         </div>
     )
