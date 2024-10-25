@@ -58,3 +58,7 @@
     @apply h-[150px] object-cover
   }
 }
+
+.stack{
+  @apply py-1 px-2 border-2 rounded-lg bg-slate-500 text-white 
+}
