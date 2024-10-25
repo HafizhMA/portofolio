@@ -72,7 +72,7 @@ const ProjectsSection = () => {
 
                 <div className='border-4 border-slate-500 rounded p-1 space-y-2 flex flex-col'>
                     <div className='h-[50%]'>
-                        <img className='object-cover' src="/usedup.png" alt="Image Description" />
+                        <img className='object-cover' src="/calculator.png" alt="Image Description" />
                     </div>
                     <div className='px-1 h-[30%]'>
                         <p className='font-bold text-xl'>Calculator</p>
