@@ -27,7 +27,7 @@ const Footer = () => {
                 <a href="https://github.com/HafizhMA">
                     <FaGithub size={30} />
                 </a>
-                <a href="https://www.instagram.com/muhammadazhrrr/">
+                <a href="https://www.instagram.com/muhammadazhrrr2/">
                     <FaInstagram size={30} />
                 </a>
             </nav>
