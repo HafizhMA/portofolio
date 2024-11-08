@@ -8,7 +8,7 @@ const ProjectsSection = () => {
             description: 'A website for buying and selling used items that already has a wide range of buying and selling features.',
             imgSrc: '/usedup.png',
             stack: ['React js', 'Tailwind CSS', 'Express js', 'Prisma', 'PostgreSQL'],
-            link: 'https://usedup.up.railway.app/'
+            link: 'https://usedup.vercel.app/'
         },
         {
             name: 'Electronic',
