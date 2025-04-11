@@ -52,7 +52,7 @@ const ProjectsSection = () => {
             <p className='font-bold text-2xl mb-3'>Projects</p>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {projects.map((project, index) => (
-                    <a href={project.link} key={index} className='cursor-pointer border-4 border-slate-500 rounded p-1 flex flex-col pb-8'>
+                    <a key={index} className='cursor-pointer border-4 border-slate-500 rounded p-1 flex flex-col pb-8'>
                         <div className=''>
                             <img className='object-cover' src={project.imgSrc} alt={`${project.name} Image`} />
                         </div>
